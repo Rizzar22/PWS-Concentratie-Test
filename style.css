@@ -1,0 +1,111 @@
+body {
+  text-align: center;
+  margin-top: 150px;
+	padding:0;
+	font-family:"arial",heletica,sans-serif;
+	font-size:12px;
+    background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
+	-webkit-animation: 10s linear 0s normal none infinite animate;
+	-moz-animation: 10s linear 0s normal none infinite animate;
+	-ms-animation: 10s linear 0s normal none infinite animate;
+	-o-animation: 10s linear 0s normal none infinite animate;
+	animation: 10s linear 0s normal none infinite animate;
+ 
+}
+ 
+@-webkit-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+.panel {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.panel:hover {
+  /* border: 1px solid red; */
+  box-shadow: inset 0px 0px 0px 5px black;
+  box-sizing: border-box;
+}
+
+.bottom-right-panel {
+  background-color: red;
+  border-bottom-right-radius: 100%;
+}
+
+.bottom-left-panel {
+  background-color: blue;
+  border-bottom-left-radius: 100%;
+}
+
+.top-right-panel {
+  background-color: green;
+  border-top-right-radius: 100%;
+}
+
+.top-left-panel {
+  background-color: yellow;
+  border-top-left-radius: 100%;
+}
+
+.active {
+  background-color: white;
+}
+
+.center {
+  display: inline-block;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: #2980b9;
+  top: 253px;
+  left: 670px;
+}
+
+.text {
+  position: absolute;
+  color: white;
+  font-family: heavitas;
+  font-size: 20px;
+  top: 305px;
+  left: 733px;
+}
+
+#count {
+  border: solid 5px black;
+  background-color: white;
+  font-family: Almond Nougat;
+  font-size: 40px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  top: 318px;
+  left: 770px;
+  height: 45px;
+  width: 60px;
+  border-radius: 10px;
+}

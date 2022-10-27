@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div>
+      <p id="count"></p>
+      <div
+        class="panel top-left-panel"
+        onclick="handlePanelClicked(event.currentTarget)"
+      ></div>
+      <div
+        class="panel top-right-panel"
+        onclick="handlePanelClicked(event.currentTarget)"
+      ></div>
+    </div>
+    <div>
+      <div
+        class="panel bottom-left-panel"
+        onclick="handlePanelClicked(event.currentTarget)"
+      ></div>
+      <div
+        class="panel bottom-right-panel"
+        onclick="handlePanelClicked(event.currentTarget)"
+      ></div>
+    </div>
+    <div class="center"></div>
+    <div id="turn"></div>
+      <div class="text">
+        SCORE
+      </div>
+    <script src="index.js"></script>
+  </body>
+</html>
