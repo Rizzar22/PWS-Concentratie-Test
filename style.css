@@ -54,21 +54,33 @@ body {
 .bottom-right-panel {
   background-color: red;
   border-bottom-right-radius: 100%;
+  position: absolute;
+  top: 350px;
+  left: 761.6px;
 }
 
 .bottom-left-panel {
   background-color: blue;
   border-bottom-left-radius: 100%;
+  position: absolute;
+  top: 350px;
+  left: 557.99px;
 }
 
 .top-right-panel {
   background-color: green;
   border-top-right-radius: 100%;
+  position: absolute;
+  top: 0px;
+  left: 206.2px;
 }
 
 .top-left-panel {
   background-color: yellow;
   border-top-left-radius: 100%;
+  position: absolute;
+  top: 0;
+  left: 2.8px;
 }
 
 .active {
@@ -108,4 +120,31 @@ body {
   height: 45px;
   width: 60px;
   border-radius: 10px;
+}
+
+.simon {
+  height: 410px;
+  width: 410px;
+  border-radius: 50%;
+  position: absolute;
+  top: 146px;
+  left: 555px;
+}
+
+@media screen and (max-width: 481px) {
+  body {
+  text-align: center;
+  margin-top: 2.7%;
+  font-size: 2.7%;
+  }
+
+  .simon {
+  float: left;
+  height: 410px;
+  width: 410px;
+  border-radius: 50%;
+  position: absolute;
+  top: 146px;
+  left: 555px;
+  }
 }
