@@ -56,7 +56,7 @@ body {
   border-bottom-right-radius: 100%;
   position: absolute;
   top: 350px;
-  left: 761.6px;
+  left: 770px;
 }
 
 .bottom-left-panel {
@@ -64,23 +64,23 @@ body {
   border-bottom-left-radius: 100%;
   position: absolute;
   top: 350px;
-  left: 557.99px;
+  left: 566.39px;
 }
 
 .top-right-panel {
   background-color: green;
   border-top-right-radius: 100%;
   position: absolute;
-  top: 0px;
-  left: 761.6px;
+  top: 146px;
+  left: 770px;
 }
 
 .top-left-panel {
   background-color: yellow;
   border-top-left-radius: 100%;
   position: absolute;
-  top: 0;
-  left: 557.99px;
+  top: 146px;
+  left: 566.39px;
 }
 
 .active {
