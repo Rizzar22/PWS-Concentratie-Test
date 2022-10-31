@@ -32,7 +32,6 @@ const flash = (panel) => {
 let canClick = false;
 
 function handlePanelClicked(panel) {
-  console.log(panel);
   if (!canClick) return;
   const expectedPanel = sequenceToGuess.shift();
   if (expectedPanel === panel) {
