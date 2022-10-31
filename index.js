@@ -45,6 +45,7 @@ function handlePanelClicked(panel) {
     }
   } else {
     // end game
+    clickCount = clickCount++;
     count.innerText = clickCount;
     alert(`Helaas, je hebt een fout gemaakt. Noteer je score in het formulier en begin opnieuw door de pagina opnieuw te laden. Heel erg bedankt!`);
   }
