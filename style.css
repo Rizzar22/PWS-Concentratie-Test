@@ -128,16 +128,43 @@ body {
     display: inline-block;
   }
 
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 600px) {
   body {
-  text-align: center;
-  margin-top: 200px;
-  font-size: 200px;
+    width: max-content;
   }
 
-  section.wrapper {
-    min-width: 410px; /* Minimum width of your wrapper element */
-    overflow: hidden;
-    display: inline-block;
+  .bottom-right-panel {
+    top: 350px;
+    left: 208.7px;
+  }
+  
+  .bottom-left-panel {
+    top: 350px;
+    left: 5px;
+  }
+  
+  .top-right-panel {
+    top: 146px;
+    left: 208.7px;
+  }
+  
+  .top-left-panel {
+    top: 146px;
+    left: 5px;
+  }
+
+  .center {
+    top: 253px;
+    left: 107px;
+  }
+
+  .text {
+    top: 305px;
+    left: 170px;
+  }
+
+  #count {
+    top: 320px;
+    left: 208px;
   }
 }
