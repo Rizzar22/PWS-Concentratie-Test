@@ -45,9 +45,8 @@ function handlePanelClicked(panel) {
     }
   } else {
     // end game
-    clickCount = 0;
     count.innerText = clickCount;
-    alert("Helaas, je hebt een fout gemaakt. Noteer je score in het formulier en begin opnieuw door de pagina opnieuw te laden. Heel erg bedankt!");
+    alert(`Helaas, je hebt een fout gemaakt. Noteer je score in het formulier en begin opnieuw door de pagina opnieuw te laden. Heel erg bedankt!`);
   }
 }
 
